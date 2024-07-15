@@ -196,4 +196,4 @@ bar {
 }
 #exec xinput set-prop "DELL09A0:00 0488:121F Touchpad" "libinput Tapping Enabled" 1
 bindsym $mod+Shift+p exec flameshot gui
-exec --no-startup-id feh --bg-scale --zoom fill $HOME/Downloads/wp10990847-debian-linux-wallpapers.png
+exec --no-startup-id feh --bg-scale --zoom fill $HOME/.config/i3/wp10990847-debian-linux-wallpapers.png
