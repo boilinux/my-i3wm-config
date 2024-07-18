@@ -199,6 +199,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	position top
 }
 exec xinput set-prop "DELL09A0:00 0488:121F Touchpad" "libinput Tapping Enabled" 1
 bindsym $mod+Shift+p exec flameshot gui
