@@ -28,10 +28,10 @@ load {
 }
 
 disk "/" {
-        format = "DISK_FREE: %avail"
+        format = "DISK: %used/%total"
 }
 memory {
-	format = "MEMORY_USED: %used"
+	format = "MEMORY: %used/%free"
 		threshold_degraded = "10%"
 		format_degraded = "MEMORY: %free"
 }
