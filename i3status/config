@@ -7,8 +7,13 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-        colors = true
+ output_format = "i3bar"
+        colors = false
+        markup = pango
         interval = 5
+        color_good = '#2f343f'
+		color_degraded = '#ebcb8b'
+		color_bad = '#ba5e57'
 }
 order += "tztime local"
 order += "memory"
@@ -21,7 +26,7 @@ battery all {
 }
 
 tztime local {
-        format = "DATE_TIME: %m-%d-%Y %I:%M:%P"
+        format = "<span color='red'>DATE_TIME: %m-%d-%Y %I:%M:%P</span>"
 }
 
 load {
@@ -31,6 +36,7 @@ load {
 disk "/" {
         format = "DISK: %used/%total"
 }
+
 memory {
 	format = "MEMORY: %used/%free"
 		threshold_degraded = "10%"
