@@ -10,9 +10,8 @@ general {
         colors = true
         interval = 5
 }
-
+order += "memory"
 order += "disk /"
-order += "battery all"
 order += "load"
 order += "tztime local"
 
@@ -25,9 +24,14 @@ tztime local {
 }
 
 load {
-        format = "%1min"
+        format = "LOAD: %1min"
 }
 
 disk "/" {
-        format = "%avail"
+        format = "DISK_FREE: %avail"
+}
+memory {
+	format = "MEMORY_USED: %used"
+		threshold_degraded = "10%"
+		format_degraded = "MEMORY: %free"
 }
