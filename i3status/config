@@ -10,17 +10,18 @@ general {
         colors = true
         interval = 5
 }
+order += "tztime local"
 order += "memory"
 order += "disk /"
 order += "load"
-order += "tztime local"
+order += "battery all"
 
 battery all {
         format = "%status %percentage %remaining"
 }
 
 tztime local {
-        format = "%m-%d-%Y %I:%M:%P"
+        format = "DATE_TIME: %m-%d-%Y %I:%M:%P"
 }
 
 load {
