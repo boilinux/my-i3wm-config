@@ -27,7 +27,7 @@ battery all {
 }
 
 tztime local {
-        format = "<span color='red'>DATE_TIME: %m-%d-%Y %I:%M:%P</span>"
+        format = "<span color='lightgreen'>%m-%d-%Y %I:%M:%P</span>"
 }
 
 load {
