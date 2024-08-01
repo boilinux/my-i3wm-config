@@ -18,7 +18,6 @@ general {
 order += "tztime local"
 order += "memory"
 order += "disk /"
-order += "load"
 order += "battery all"
 order += "volume master"
 
@@ -27,7 +26,7 @@ battery all {
 }
 
 tztime local {
-        format = "<span color='lightgreen'>%m-%d-%Y %I:%M:%P</span>"
+        format = "<span color='lightgreen'>%A, %m-%d-%Y %I:%M:%P</span>"
 }
 
 load {
