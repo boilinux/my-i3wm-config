@@ -99,9 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # User specific aliases and functions
-alias drush='/home/boilinux/drush7/vendor/bin/drush'
-alias drush9='/home/boilinux/drush9/vendor/bin/drush'
-alias drush8='/home/boilinux/drush8/vendor/bin/drush'
+#alias drush='/home/boilinux/drush7/vendor/bin/drush'
+#alias drush9='/home/boilinux/drush9/vendor/bin/drush'
+#alias drush8='/home/boilinux/drush8/vendor/bin/drush'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -123,12 +123,16 @@ alias zig="$HOME/zig-linux-x86_64-0.12.0/zig"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/.fvm_flutter/bin
 alias postman="$HOME/Downloads/Postman/Postman"
+#jdk
+#export PATH="$PATH:$HOME/jdk-21.0.5/bin"
 
 #remove python env files
 alias rm_py_env="rm -rf bin include lib lib64 pyvenv.cfg __pycache__"
 alias rsync_matsoy="rsync -av --ignore-existing --progress matsoy@82.180.137.10:/home/matsoy/D9-ctu-online-class/web/sites/default/files/ $HOME/projects/drupal/D9-ctu-online-class/web/sites/default/files/"
 alias rm_antlr_language="rm -rf Language.interp Language.tokens LanguageLexer.interp LanguageLexer.py LanguageLexer.tokens LanguageParser.py LanguageVisitor.py"
 alias gen_antlr_language="antlr4 -Dlanguage=Python3 -no-listener -visitor Language.g"
+# network gui
+alias wifi="sudo wpa_gui"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
