@@ -211,7 +211,7 @@ bar {
 }
 exec xinput set-prop "DELL09A0:00 0488:121F Touchpad" "libinput Tapping Enabled" 1
 bindsym $mod+Shift+p exec flameshot gui
-exec --no-startup-id feh --bg-scale --zoom fill $HOME/.config/i3/wallpaperflare.com_wallpaper2.jpg
+exec --no-startup-id feh --bg-scale --zoom fill $HOME/.config/i3/wallpaperflare.com_wallpaper.jpg
 bindsym Control+$mod+l exec "i3lock -c FFFFFF"
 bindsym Control+Shift+$mod+0 exec --no-startup-id "xrandr --output HDMI-2 --off"
 bindsym Control+Shift+$mod+2 exec --no-startup-id "xrandr --output HDMI-2 --right-of eDP-1"

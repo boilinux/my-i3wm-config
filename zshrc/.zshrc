@@ -116,13 +116,15 @@ alias ls='exa -lah'
 alias zsearch='cat $HOME/.zsh_history | grep $1'
 #export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$PATH:$HOME/nvim-linux64/bin"
-alias vim="nvim"
+alias vim="$HOME/nvim-linux-x86_64/bin/nvim"
 export PATH="$PATH:$HOME/Downloads/flutter_linux_3.19.3-stable/flutter/bin"
 alias easyeda="$HOME/Downloads/easyeda-linux-x64/easyeda"
 alias zig="$HOME/zig-linux-x86_64-0.12.0/zig" 
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/.fvm_flutter/bin
 alias postman="$HOME/Downloads/Postman/Postman"
+alias update_wifi_interface="sudo vim /etc/network/interfaces"
+alias update_wifi_ctl="sudo systemctl restart networking.service"
 #jdk
 #export PATH="$PATH:$HOME/jdk-21.0.5/bin"
 
@@ -133,6 +135,8 @@ alias rm_antlr_language="rm -rf Language.interp Language.tokens LanguageLexer.in
 alias gen_antlr_language="antlr4 -Dlanguage=Python3 -no-listener -visitor Language.g"
 # network gui
 alias wifi="sudo wpa_gui"
+# arduino version 2.3.4
+alias arduino2="$HOME/Downloads/arduino-2.3.4/arduino-ide"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
