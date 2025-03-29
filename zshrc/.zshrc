@@ -137,6 +137,10 @@ alias gen_antlr_language="antlr4 -Dlanguage=Python3 -no-listener -visitor Langua
 alias wifi="sudo wpa_gui"
 # arduino version 2.3.4
 alias arduino2="$HOME/Downloads/arduino-2.3.4/arduino-ide"
+# create symlink from arduino .vscode
+alias create_symlink_vscode="ln -s $HOME/projects/arduino/ct315-microprocessor-system/.vscode"
+#update,upgrade and remove
+alias update_my_debian="sudo apt update && sudo apt upgrade && sudo apt autoremove"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
