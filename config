@@ -138,6 +138,12 @@ bindsym F5 workspace number $ws5
 #exec --no-startup-id i3-msg 'exec terminator; workspace $ws1'
 #exec --no-startup-id i3-msg 'exec thunderbird; workspace $ws2'
 #exec --no-startup-id i3-msg 'exec google-chrome; workspace $ws3'
+assign [class="Google-chrome"] 3
+exec --no-startup-id i3-msg "workspace 3; exec google-chrome"
+
+assign [class="Brave-browser-nightly"] 4
+exec --no-startup-id i3-msg "workspace 4; exec brave-browser-nightly"
+
 exec_always terminator 
 for_window [class="terminator"] move to workspace $ws1
 exec_always thunderbird 
