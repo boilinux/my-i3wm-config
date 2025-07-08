@@ -1,0 +1,5 @@
+[power]
+command=~/.config/i3blocks/power.sh
+interval=once
+signal=1
+
