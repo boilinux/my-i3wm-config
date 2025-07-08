@@ -127,6 +127,11 @@ alias update_wifi_interface="sudo vim /etc/network/interfaces"
 alias update_wifi_ctl="sudo systemctl restart networking.service"
 #jdk
 #export PATH="$PATH:$HOME/jdk-21.0.5/bin"
+#export JAVA_HOME="$HOME/jdk-11.0.20+8"
+#export PATH="$JAVA_HOME/bin:$PATH"
+
+#stm32cubeprogrammer
+export PATH="$PATH:$HOME/STMicroelectronics2/STM32Cube/STM32CubeProgrammer/bin"
 
 #remove python env files
 alias rm_py_env="rm -rf bin include lib lib64 pyvenv.cfg __pycache__"
@@ -141,6 +146,8 @@ alias arduino2="$HOME/Downloads/arduino-2.3.4/arduino-ide"
 alias create_symlink_vscode="ln -s $HOME/projects/arduino/ct315-microprocessor-system/.vscode"
 #update,upgrade and remove
 alias update_my_debian="sudo apt update && sudo apt upgrade && sudo apt autoremove"
+#freecad
+alias freecad="$HOME/Downloads/FreeCAD_1.0.0-conda-Linux-x86_64-py311.AppImage"
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
