@@ -14,3 +14,7 @@ sudo apt install pipewire pipewire-pulse pipewire-alsa pipewire-audio-client-lib
 systemctl --user enable pipewire pipewire-pulse wireplumber
 systemctl --user start pipewire pipewire-pulse wireplumber
 systemctl --user status pipewire
+
+
+*arduino with stm32
+use stm32board version 2.7.1
