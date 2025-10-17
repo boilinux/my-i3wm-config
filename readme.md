@@ -18,3 +18,6 @@ systemctl --user status pipewire
 
 *arduino with stm32
 use stm32board version 2.7.1
+
+*install zig version 12.0
+*install ly display manager version v1.0.0 --- compatible with zig 12.0
