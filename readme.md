@@ -21,3 +21,10 @@ use stm32board version 2.7.1
 
 *install zig version 12.0
 *install ly display manager version v1.0.0 --- compatible with zig 12.0
+
+Stop anything that’s hijacking the port
+ModemManager and brltty are the usual culprits on fresh installs.
+Quick test (no reboot needed):
+sudo systemctl stop ModemManager
+sudo systemctl disable ModemManager
+sudo apt purge brltty -y   # only if you don't use braille devices
