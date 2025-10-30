@@ -3,3 +3,8 @@ command=~/.config/i3blocks/power.sh
 interval=once
 signal=1
 
+[date]
+command=~/.config/i3blocks/date.sh
+interval=5
+signal=1
+

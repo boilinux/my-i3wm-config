@@ -2,7 +2,7 @@ Debian 13
 
 sudo apt install i3 i3blocks lightdm x11-xserver-utils pulseaudio
 
-sudo apt install thunderbird flameshot terminator rofi wpagui
+sudo apt install thunderbird flameshot terminator rofi wpagui thunar
 
 *rename my-i3wm-config to i3
 
