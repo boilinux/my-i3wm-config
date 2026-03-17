@@ -215,7 +215,7 @@ bar {
 	status_command i3status
 		position top
 }
-exec xinput set-prop "DELL09A0:00 0488:121F Touchpad" "libinput Tapping Enabled" 1
+#exec xinput set-prop "DELL09A0:00 0488:121F Touchpad" "libinput Tapping Enabled" 1
 bindsym $mod+Shift+p exec flameshot gui
 exec --no-startup-id feh --bg-scale --zoom fill $HOME/.config/i3/wallpaperflare.com_wallpaper.jpg
 bindsym Control+$mod+l exec "i3lock -c FFFFFF"
