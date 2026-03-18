@@ -21,6 +21,14 @@ use stm32board version 2.7.1
 
 <p>*install zig version 12.0</p>
 <p>*install ly display manager version v1.0.0 --- compatible with zig 12.0</p>
+<p>remove the lightdm display manager</p>
+<pre>sudo apt purge lightdm</pre>
+<p>run ly display manager</p>
+<pre>zig build</pre>
+<pre>zig build run</pre>
+<pre>sudo /home/boilinux/zig-linux-x86_64-0.12.0/zig build installexe</pre>
+<pre>sudo systemctl enable ly.service</pre>
+<pre>sudo systemctl start ly.service</pre>
 
 <p>Stop anything that’s hijacking the port
 ModemManager and brltty are the usual culprits on fresh installs.
