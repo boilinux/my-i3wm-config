@@ -19,6 +19,7 @@ Debian 13
 <p>*arduino with stm32
 use stm32board version 2.7.1</p>
 <a href="https://community.st.com/t5/stm32-mcus/how-to-program-and-debug-the-stm32-using-the-arduino-ide/ta-p/608514">https://community.st.com/t5/stm32-mcus/how-to-program-and-debug-the-stm32-using-the-arduino-ide/ta-p/608514</a>
+<pre>sudo usermod -aG tty,dialout boilinux</pre>
 
 <p>*install zig version 12.0</p>
 <p>*install ly display manager version v1.0.0 --- compatible with zig 12.0</p>
